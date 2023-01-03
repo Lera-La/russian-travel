@@ -1,0 +1,23 @@
+.place__website {
+    grid-area: web;
+    align-self: end;
+}
+
+@media (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 590px) {
+    .place__website {
+        margin: 0 auto;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin-left: 16px;
+    }
+}
